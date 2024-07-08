@@ -1,0 +1,34 @@
+.box{
+    height:100px;
+    width:300px;
+    background-color: pink;
+   animation:widthAnimate 4s ease-in 0s 2 normal;
+}
+/* only blueprint is created for the a */
+@keyframes fontAnimation{
+    form{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes colorAnimate{
+    from{
+        background-color: pink;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+@keyframes widthAnimate{
+   0%{
+    background-color: pink;
+   }
+   50%{
+    background-color: aqua;
+   }
+   100%{
+    background-color:yellow;
+   }
+}

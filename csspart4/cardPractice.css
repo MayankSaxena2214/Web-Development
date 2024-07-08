@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+.container{
+    border:2px solid black;
+    width:305px;
+}
+.container:hover{
+    box-shadow:2px 2px 10px green;
+    font-size:larger;
+}
+img{
+    height:300px;
+    width:300px;
+}
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}

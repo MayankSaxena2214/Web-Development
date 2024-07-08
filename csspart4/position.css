@@ -1,0 +1,35 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: yellow;border:3px solid black;
+    text-align:center;
+    display:inline-block;
+    margin:20px;
+    /* position:static;
+    top:200px;
+    bottom:200px; */
+}
+#static{
+    position:static;
+    background-color:red;
+    top:100px;
+    left:100px;
+}
+#Relative{
+    position:relative;
+    background-color:red;
+    top:100px;
+    left:100px;
+}
+#absolute{
+    position:absolute;
+    background-color:red;
+    top:100px;
+    left:100px;
+}
+#fixed{
+    position:fixed;
+    background-color:red;
+    top:100px;
+    left:100px;
+}

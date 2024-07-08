@@ -1,0 +1,34 @@
+.background{
+    height:100vh;
+    width:100%;
+    background-image:url("photo.jpg");
+    background-size:cover;
+    background-position: center;
+    
+}
+/* .blur{
+    height:100%;
+    width:100%;
+    background:linear-gradient(to top,
+    rgba(255,0,0,0.8)0%,
+    rgba(255,0,0,0)50%,
+    rgba(255,0,0,0.8)100%,
+    );
+} */
+.blur{
+    height:100%;
+    width:100%;
+    background:linear-gradient(to top,
+    rgba(0,0,0,0.8)  0%,
+    rgba(0,0,0,0)  50%,
+    rgba(0,0,0,0.8)  100%
+    );
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.inner{
+    color:white;
+    font-size:x-large
+}

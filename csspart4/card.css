@@ -1,0 +1,24 @@
+.card {
+    border:  2px solid black;
+    /* Define a width and height or min-width and min-height */
+    width:  230px; /* Example width */
+    height: auto; /* Adjust as needed */
+    /* Other styles as needed */
+    display:inline-block;
+    margin:10px;
+    border-radius:5px;
+    box-shadow:0 4px 8px red;
+    transition:1s;
+}
+img{
+    width:100%;
+    border-radius:5px 5px 0 0;
+    display:flex;
+    
+}
+.desc{
+    padding:0px 0px 0px 10px;;
+}
+.card:hover{
+    box-shadow:0 8px 16px red;
+}
